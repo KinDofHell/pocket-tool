@@ -1,0 +1,16 @@
+<template>
+  <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <rect x="2" y="2" width="60" height="60" rx="10" ry="10" fill="#f0f0f0" />
+    <rect x="6" y="6" width="52" height="12" rx="6" ry="6" fill="#e0e0e0" />
+    <rect x="10" y="10" width="8" height="4" rx="2" ry="2" fill="#ff6600" />
+    <rect x="22" y="10" width="8" height="4" rx="2" ry="2" fill="#ffcc00" />
+    <rect x="34" y="10" width="8" height="4" rx="2" ry="2" fill="#99cc00" />
+    <rect x="6" y="20" width="52" height="38" rx="6" ry="6" fill="#ffffff" />
+    <circle cx="16" cy="38" r="8" fill="#00bfff" stroke="#000" stroke-width="2" />
+    <line x1="10" y1="38" x2="22" y2="38" stroke="#ffffff" stroke-width="2" />
+    <line x1="16" y1="32" x2="16" y2="44" stroke="#ffffff" stroke-width="2" />
+    <rect x="26" y="28" width="26" height="4" rx="2" ry="2" fill="#cccccc" />
+    <rect x="26" y="36" width="26" height="4" rx="2" ry="2" fill="#cccccc" />
+    <rect x="26" y="44" width="26" height="4" rx="2" ry="2" fill="#cccccc" />
+  </svg>
+</template>
