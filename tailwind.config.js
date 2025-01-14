@@ -70,7 +70,7 @@ module.exports = {
       },
       screens: {
         mobile: { max: '768px' },
-        tablet: { max: '1200px' },
+        tablet: { min: '769px' },
         desktop: { min: '1201px' },
       },
       borderRadius: {

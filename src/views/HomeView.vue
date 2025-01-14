@@ -4,7 +4,7 @@ import WeatherWidget from '@/components/shared/widgets/WeatherWidget.vue'
 </script>
 
 <template>
-  <div>
+  <div class="flex">
     <WeatherWidget />
   </div>
 </template>
