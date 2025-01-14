@@ -1,7 +1,21 @@
 @import './base.css';
 
 #app {
-  padding: 8px;
+  max-width: 1680px;
+  width: 100%;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 8px;
+
+  @media screen and (max-width: 768px){
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+main {
+  margin: 0 auto;
 }
 
 @layer base {

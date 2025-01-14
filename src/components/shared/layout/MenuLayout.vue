@@ -13,7 +13,7 @@ import {
 <template>
   <Menubar>
     <MenubarMenu>
-      <MenubarTrigger>Menu</MenubarTrigger>
+      <MenubarTrigger> Menu</MenubarTrigger>
       <MenubarContent>
         <MenubarItem>Home</MenubarItem>
         <MenubarSeparator />
