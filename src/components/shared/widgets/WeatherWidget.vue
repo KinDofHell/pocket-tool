@@ -56,18 +56,4 @@ onMounted(() => {
 .hover-effect:hover .icon-container {
   transform: translateY(3px);
 }
-
-.fade-slide-enter-from {
-  opacity: 0;
-  transform: translateY(500px);
-}
-
-.fade-slide-enter-to {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.fade-slide-enter-active {
-  transition: all 0.6s ease;
-}
 </style>

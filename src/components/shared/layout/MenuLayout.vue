@@ -5,7 +5,6 @@ import {
   MenubarItem,
   MenubarMenu,
   MenubarSeparator,
-  MenubarShortcut,
   MenubarTrigger,
 } from '@/components/ui/menubar'
 </script>
@@ -13,11 +12,11 @@ import {
 <template>
   <Menubar>
     <MenubarMenu>
-      <MenubarTrigger> Menu</MenubarTrigger>
+      <MenubarTrigger>Menu</MenubarTrigger>
       <MenubarContent>
-        <MenubarItem>Home</MenubarItem>
+        <MenubarItem><RouterLink :to="{ name: 'home' }">Home</RouterLink></MenubarItem>
         <MenubarSeparator />
-        <MenubarItem>Share</MenubarItem>
+        <MenubarItem><RouterLink :to="{ name: 'weather' }">Weather</RouterLink> </MenubarItem>
         <MenubarItem>Print</MenubarItem>
       </MenubarContent>
     </MenubarMenu>
