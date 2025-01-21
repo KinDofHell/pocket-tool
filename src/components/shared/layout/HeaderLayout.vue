@@ -5,8 +5,8 @@ import SearchLayout from '@/components/shared/layout/SearchLayout.vue'
 </script>
 
 <template>
-  <header class="flex gap-2 items-center justify-end mb-6 card-container p-1 w-wull">
-    <IconLogo />
+  <header class="flex gap-2 items-center justify-end mb-6 card-container p-1 w-full">
+    <IconLogo v-once />
     <SearchLayout />
     <MenuLayout />
   </header>

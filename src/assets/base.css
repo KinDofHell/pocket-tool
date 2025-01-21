@@ -84,14 +84,6 @@
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
-}
-
 body {
   min-height: 100vh;
   color: var(--vt-c-text-primary);
@@ -114,6 +106,13 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
 }
 
 h1,
@@ -130,16 +129,6 @@ p {
   color: var(--vt-c-text-secondary);
 }
 
-a {
-  color: var(--vt-c-text-primary);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: var(--vt-c-gray-muted);
-}
-
 @keyframes waveMove {
   0% {
     background-position: 0% 50%;
@@ -148,6 +137,6 @@ a:hover {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0 50%;
   }
 }
