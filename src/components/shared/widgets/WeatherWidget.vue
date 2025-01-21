@@ -24,7 +24,7 @@ onMounted(() => {
         <IconCloudy />
       </div>
       <div class="flex flex-col">
-        <span class="text-xl font-bold">Zhytomyr</span>
+        <h2 class="text-xl font-bold">Zhytomyr</h2>
         <div class="flex">
           <span>-8<span class="text-[10px] relative -top-1.5">°C</span></span>
           <span class="mx-1">|</span>
