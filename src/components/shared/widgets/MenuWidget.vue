@@ -32,15 +32,17 @@ onMounted(() => {
   gap: 5px;
   padding-bottom: 5px;
 
-  transition: background-color 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .menu-item:not(:last-child) {
   border-bottom: 1px solid #d2cfcf;
 }
 
-.menu-item:hover {
-  background-color: #eeeeee;
+@media screen and (max-width: 767px) {
+  .menu-item:hover {
+    height: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -56,6 +58,10 @@ onMounted(() => {
 
   .menu-card {
     padding: 0 !important;
+  }
+
+  .menu-item:hover {
+    background-color: #eeeeee;
   }
 }
 </style>
