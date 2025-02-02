@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'weather',
       component: () => import('../views/WeatherView.vue'),
     },
+    {
+      path: '/quotes',
+      name: 'quotes',
+      component: () => import('../views/QuotesView.vue'),
+    },
   ],
 })
 

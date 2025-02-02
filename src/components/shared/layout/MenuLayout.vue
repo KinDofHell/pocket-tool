@@ -14,10 +14,16 @@ import {
     <MenubarMenu>
       <MenubarTrigger>Menu</MenubarTrigger>
       <MenubarContent>
-        <MenubarItem><RouterLink :to="{ name: 'home' }">Home</RouterLink></MenubarItem>
+        <MenubarItem>
+          <RouterLink :to="{ name: 'home' }">Home</RouterLink>
+        </MenubarItem>
         <MenubarSeparator />
-        <MenubarItem><RouterLink :to="{ name: 'weather' }">Weather</RouterLink> </MenubarItem>
-        <MenubarItem>Print</MenubarItem>
+        <MenubarItem>
+          <RouterLink :to="{ name: 'weather' }">Weather</RouterLink>
+        </MenubarItem>
+        <MenubarItem>
+          <RouterLink :to="{ name: 'quotes' }">Quotes</RouterLink>
+        </MenubarItem>
       </MenubarContent>
     </MenubarMenu>
   </Menubar>
